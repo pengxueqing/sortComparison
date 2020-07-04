@@ -72,6 +72,15 @@ public class MainTest{
 
 		JPanel jp0 = new JPanel();    //创建一个JPanel对象
 
+<<<<<<< HEAD
+=======
+
+		JButton jbStart = new JButton("开始比较");//创建一个按钮
+		JButton jbSpeedUp = new JButton("加速");
+		JButton jbSpeedDown = new JButton("减速");
+		JButton jbAboutOrder = new JButton("近似有序");
+		JButton jbReset = new JButton("重置");
+>>>>>>> 81ced97a97d4a0a60f341e7c5284f0087e674676
 		JLabel jl1 = new JLabel("折半插入排序");    //创建一个标签
 		JLabel jl2 = new JLabel("直接插入排序");
 		JLabel jl3 = new JLabel("冒泡排序");
@@ -81,6 +90,7 @@ public class MainTest{
 		JLabel jl7 = new JLabel("归并排序");
 		JLabel jl8 = new JLabel("堆排序");
 		JLabel jl9 = new JLabel("基数排序");
+<<<<<<< HEAD
 		JButton jbStart = new JButton("开始比较");//创建一个按钮
 		JButton jbSpeedUp = new JButton("加速");
 		JButton jbSpeedDown = new JButton("减速");
@@ -89,6 +99,12 @@ public class MainTest{
 
 //		jf.add(b1);    //将外层横向Box添加进窗体
 //		jf.add(jp0);
+=======
+
+
+//		jf.add(b1);    //将外层横向Box添加进窗体
+		jf.add(jp0);
+>>>>>>> 81ced97a97d4a0a60f341e7c5284f0087e674676
 
 		jf.add(binarySort);
 		jf.add(insertSort);
@@ -101,6 +117,14 @@ public class MainTest{
 		jf.add(heapSort);
 		jf.add(radixSort);
 
+<<<<<<< HEAD
+=======
+		jp0.add(jbStart);//将按钮添加到面板
+		jp0.add(jbSpeedUp);
+		jp0.add(jbSpeedDown);
+		jp0.add(jbAboutOrder);
+		jp0.add(jbReset);
+>>>>>>> 81ced97a97d4a0a60f341e7c5284f0087e674676
 		jp0.add(jl1);
 		jp0.add(jl2);
 		jp0.add(jl3);
@@ -111,6 +135,7 @@ public class MainTest{
 		jp0.add(jl8);
 		jp0.add(jl9);
 
+<<<<<<< HEAD
 		jp0.add(jbStart);//将按钮添加到面板
 		jp0.add(jbSpeedUp);
 		jp0.add(jbSpeedDown);
@@ -118,6 +143,8 @@ public class MainTest{
 		jp0.add(jbReset);
 		jf.add(jp0);
 
+=======
+>>>>>>> 81ced97a97d4a0a60f341e7c5284f0087e674676
 		jp0.setBackground(Color.white);    //设置背景色
 		jp0.setPreferredSize(new Dimension(510, 150)); //设置jpanel尺寸
 
@@ -137,9 +164,15 @@ public class MainTest{
 //		jb.setPreferredSize(new Dimension(100, 40)); //设置按钮尺寸
 		//向JPanel添加FlowLayout布局管理器，将组件间的横向和纵向间隙都设置为20像素
 
+<<<<<<< HEAD
 		jf.setLayout(new GridLayout(5, 2, 10, 0));
 		jp0.setLayout(new GridLayout(7, 2, 5, 5));
 		jf.setBounds(520, 150, 1030, 800);    //设置窗口大小和位置
+=======
+		jf.setLayout(new GridLayout(5, 2, 0, 0));
+		jp0.setLayout(new GridLayout(5, 2, 20, 5));
+		jf.setBounds(520, 150, 1020, 750);    //设置窗口大小和位置
+>>>>>>> 81ced97a97d4a0a60f341e7c5284f0087e674676
 		jf.setVisible(true);    //设置窗口可见
 
 
