@@ -78,7 +78,7 @@ public class MergeSort extends VisibleSort implements Sort,Runnable {
             array.set(temp[k2], k2+low);
 
             try {
-                Thread.sleep(10);
+                Thread.sleep(speed);
             } catch (Exception e) {}
             super.repaint();
         }

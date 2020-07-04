@@ -9,6 +9,7 @@ import javax.swing.JPanel;
  * to make sort visually
  * */
 public class VisibleSort extends JPanel{
+	int speed = 100;
 	JFrame jFrame;
 	JPanel jpanel;
 	ArrayNeedToSort array;

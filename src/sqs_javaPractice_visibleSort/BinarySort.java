@@ -41,7 +41,7 @@ public class BinarySort extends VisibleSort implements Sort,Runnable{
 			for (int j = i-1; j >= low; j--) {
 				array.set(array.get(j), j+1);
 				try {
-					Thread.sleep(10);
+					Thread.sleep(speed);
 				} catch (Exception e) {}
 				super.repaint();
 			}

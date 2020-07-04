@@ -53,9 +53,11 @@ public class ShellSort extends VisibleSort implements Sort,Runnable{
 					} catch (Exception e) {}
 					super.repaint();
 				}
-				array.set(temp, j+delta);	
+
+				array.set(temp, j+delta);
 			}
 		}
 	}
+
 
 }

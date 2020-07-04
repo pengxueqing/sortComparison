@@ -32,7 +32,7 @@ public class SelectSort extends VisibleSort implements Sort,Runnable{
                     array.set(array.get(j), i);
                     array.set(temp, j);
                     try {
-                        Thread.sleep(10);
+                        Thread.sleep(speed);
                     } catch (Exception e) {}
                     super.repaint();
                 }

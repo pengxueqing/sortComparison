@@ -39,7 +39,7 @@ public class InsertSort extends VisibleSort implements Sort,Runnable{
 					array.set(array.get(j),j+1);
 
 					try {
-						Thread.sleep(10);
+						Thread.sleep(speed);
 					} catch (Exception e) {}
 					repaint();
 					// 从后往前遍历已排序列表，逐个和待排序元素比较，如果已排序元素较大，则将它后移

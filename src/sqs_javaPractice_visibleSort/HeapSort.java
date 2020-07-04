@@ -64,7 +64,7 @@ public class HeapSort extends VisibleSort implements Sort,Runnable {
             adjustHeap(0, i);
 
             try {
-                Thread.sleep(100); //每次重画都要有一定的延迟，为了看清！
+                Thread.sleep(speed); //每次重画都要有一定的延迟，为了看清！
             } catch (Exception e) {}
             super.repaint();
 

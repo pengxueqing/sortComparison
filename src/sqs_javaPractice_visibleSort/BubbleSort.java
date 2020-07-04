@@ -42,7 +42,7 @@ public class BubbleSort extends VisibleSort implements Sort,Runnable {
 					array.set(temp, j+1);  
 					//ÖØ»­--redraw
 					try {
-						Thread.sleep(10);
+						Thread.sleep(speed);
 					} catch (Exception e) {}
 					super.repaint();
 				}

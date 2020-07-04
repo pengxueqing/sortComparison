@@ -59,7 +59,7 @@ public class QuickSort extends VisibleSort implements Sort,Runnable{
 			if(low < high) {array.set(array.get(low), high);high--;}//找到放入右边
 			//重画--redraw
 			try {
-				Thread.sleep(10);
+				Thread.sleep(speed);
 			} catch (Exception e) {}
 			super.repaint();
 		}

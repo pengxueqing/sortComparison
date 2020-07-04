@@ -69,7 +69,7 @@ public class RadixSort extends VisibleSort implements Sort,Runnable {
 
 
                         try {
-                            Thread.sleep(10);
+                            Thread.sleep(speed);
                         } catch (Exception e) {}
                         super.repaint();
                     }
